@@ -1,0 +1,33 @@
+.Horizontal ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #555555;
+    align-items: left;
+    padding: 10px, 0;
+}
+
+.Horizontal li {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+}
+
+.Vertical li {
+    display: block;
+    background-color: rgb(21, 207, 21); 
+    color: white;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+.Vertical li.Vertical3 {
+    background-color: rgb(255, 43, 43);
+}
